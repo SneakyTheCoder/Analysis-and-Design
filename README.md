@@ -12,3 +12,15 @@ Analysis of the Data Structures
 **Recommendation**
 For this project I would recommend that a binary search tree is used to store the information. A BST is already sorted and would not require any additional steps to do so. Printing the entire course list only would require an in-order traversal with a cost of 0(n), while vectors and hash tables would require sorting first with a cost of 0(n log n). The search function in a BST is also much faster and only has a cost of 0(log n) on average. Although hash tables also have a fast search function, they would perform worse in other aspects due to needing sorting. 
 
+**printCourseList Function**
+
+void BinarySearchTree::PrintCourseList() {
+    inOrder(root);
+}
+
+What was the problem you were solving in the projects for this course?
+How did you approach the problem? Consider why data structures are important to understand.
+How did you overcome any roadblocks you encountered while going through the activities or project?
+How has your work on this project expanded your approach to designing software and developing programs?
+How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+
