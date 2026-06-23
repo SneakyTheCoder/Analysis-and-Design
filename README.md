@@ -18,6 +18,19 @@ void BinarySearchTree::PrintCourseList() {
     inOrder(root);
 }
 
+void BinarySearchTree::inOrder(Node* node) {
+    if (node != nullptr) {
+        inOrder(node->left);
+
+        cout << node->course.courseNumber
+            << ", "
+            << node->course.courseTitle
+            << endl;
+
+        inOrder(node->right);
+    }
+}
+
 What was the problem you were solving in the projects for this course?
 How did you approach the problem? Consider why data structures are important to understand.
 How did you overcome any roadblocks you encountered while going through the activities or project?
