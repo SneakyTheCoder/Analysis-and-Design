@@ -1,6 +1,7 @@
 Analysis of the Data Structures
 
 Advantages / Disadvantages
+
 **Vector**
 	A vector has a very simple implementation and would be the most user friendly of the three options. A vector would also utilize the least memory on the system. Some disadvantages would be that the linear search is much slower and would require a sacrifice in speed. The prerequisite validation is costly as well, sitting at 0(n^2). A vector is also not naturally sorted and would require sorting before printing.
   
